@@ -6,8 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Catcher\" />
-    <Folder Include="Model\" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.16" />
   </ItemGroup>
 
 </Project>

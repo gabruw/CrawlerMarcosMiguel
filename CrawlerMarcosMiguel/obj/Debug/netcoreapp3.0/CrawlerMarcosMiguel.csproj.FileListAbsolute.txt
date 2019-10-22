@@ -1,0 +1,4 @@
+C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.exe
+C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.csprojAssemblyReference.cache
+C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfoInputs.cache
+C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfo.cs
