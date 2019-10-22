@@ -13,30 +13,9 @@ namespace CrawlerMarcosMiguel
             return htmlDoc;
         }
 
-        public Uri SelectPageQuery(int tipo)
+        public Uri SelectPageQuery(string titulo)
         {
-            Uri url = new Uri("");
-
-            switch (tipo)
-            {
-                case 1:
-                    url = new Uri("https://sites.google.com/site/marcosamiguel/analise-de-sitemas?authuser=0");
-                    break;
-                case 2:
-                    url = new Uri("https://sites.google.com/site/marcosamiguel/pos-graduacao?authuser=0");
-                    break;
-                case 3:
-                    url = new Uri("https://sites.google.com/site/marcosamiguel/programacao-orientada-a-objetos-ii?authuser=0");
-                    break;
-                case 4:
-                    url = new Uri("https://sites.google.com/site/marcosamiguel/programacao-orientada-a-objetos-iii?authuser=0");
-                    break;
-                default:
-                    url = new Uri("https://sites.google.com/site/marcosamiguel/home?authuser=0");
-                    break;
-            }
-
-            return url;
+            return new Uri(String.Format("https://sites.google.com/site/marcosamiguel/{0}?authuser=0", titulo));
         }
     }
 }

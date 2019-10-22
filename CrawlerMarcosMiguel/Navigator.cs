@@ -1,4 +1,6 @@
-﻿using HtmlAgilityPack;
+﻿using CrawlerMarcosMiguel.Catcher;
+using CrawlerMarcosMiguel.Model;
+using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,23 +9,21 @@ namespace CrawlerMarcosMiguel
 {
     public class Navigator
     {
-        // Globais privadas
         private Utils _utils = new Utils();
         private Connect _connect = new Connect();
-        private Catcher_All _catcher = new Catcher_All();
+        private AnaliseDeSistemas _analiseDeSistemas = new AnaliseDeSistemas();
 
-        // Globais publicas
-        public Consulta _consulta = new Consulta();
+        public List<Registro> _listRegistro = new List<Registro>();
 
         public void NavToMainPage()
         {
-            Uri url = _utils.SelectPageQuery(0);
+            Uri url = _utils.SelectPageQuery("home");
             HtmlDocument html = _connect.RequestGET(url);
         }
 
-        public void NavToMainPage()
+        public void NavToAnaliseDeSistemasPage()
         {
-            Uri url = _utils.SelectPageQuery(1);
+            Uri url = _utils.SelectPageQuery("analise-de-sitemas");
             HtmlDocument html = _connect.RequestGET(url);
         }
 
