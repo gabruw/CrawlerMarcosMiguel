@@ -1,11 +1,12 @@
 ﻿using CrawlerMarcosMiguel.Model;
 using HtmlAgilityPack;
 using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace CrawlerMarcosMiguel.Catcher
 {
-    public class AnaliseDeSistemas
+    public class All
     {
         private Utils _utils = new Utils();
 
@@ -13,10 +14,10 @@ namespace CrawlerMarcosMiguel.Catcher
         {
             Registro newRegistro = new Registro();
 
-            string titulo = html.DocumentNode.SelectSingleNode("//div[@id='h.p_ID_5']/div/div/h1").OuterHtml;
+            string titulo = html.DocumentNode.SelectSingleNode("//div/div/div/h1").InnerText;
             newRegistro.Titulo = titulo;
 
-            HtmlNodeCollection nodesData = html.DocumentNode.SelectNodes("//div[@id='h.p_ID_35']/div/div/p/a/@href");
+            HtmlNodeCollection nodesData = html.DocumentNode.SelectNodes("//section//div/div/div/div/p[a]");
             if (nodesData == null)
             {
                 throw new Exception("Erro ao capturar os nodes que contém os dados a serem capturados.");
@@ -24,11 +25,13 @@ namespace CrawlerMarcosMiguel.Catcher
 
             foreach (HtmlNode node in nodesData)
             {
-                HtmlDocument nodeHtmlDoc = _utils.ParseToHtmlDocument(node.InnerHtml);
+                string id = node.ChildNodes["#text"].InnerHtml;
+                string[] idSplited = Regex.Split(id, "—");
 
-                string link = nodeHtmlDoc.DocumentNode.SelectSingleNode("").OuterHtml;
+                id = idSplited[idSplited.Length - 1].Trim();
+                string link = node.ChildNodes["a"].Attributes["href"].Value;
 
-                newRegistro.LinksPDF.Add(link);
+                newRegistro.LinksPDF.Add(link, id);
             }
 
             return newRegistro;

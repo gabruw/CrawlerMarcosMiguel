@@ -2,3 +2,17 @@ C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debu
 C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.csprojAssemblyReference.cache
 C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfoInputs.cache
 C:\Users\snyp_\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfo.cs
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.csprojAssemblyReference.cache
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfoInputs.cache
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.AssemblyInfo.cs
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.exe
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.deps.json
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.runtimeconfig.json
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.runtimeconfig.dev.json
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.dll
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\CrawlerMarcosMiguel.pdb
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\HtmlAgilityPack.dll
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.csproj.CopyComplete
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.dll
+C:\Users\gabriel.frança\Documents\GitHub\CrawlerMarcosMiguel\CrawlerMarcosMiguel\obj\Debug\netcoreapp3.0\CrawlerMarcosMiguel.pdb

@@ -6,6 +6,6 @@ namespace CrawlerMarcosMiguel.Model
     {
         public string Titulo { get; set; }
 
-        public List<string> LinksPDF { get; set; }
+        public Dictionary<string, string> LinksPDF = new Dictionary<string, string>();
     }
 }
